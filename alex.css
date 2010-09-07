@@ -1,0 +1,117 @@
+/*
+	Personal HTML5/CSS3
+	by Alex Baldwin
+	-----------------------------
+	http://kiwigrove.com
+*/
+
+
+
+/* 
+	Resets
+	------
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, video, object {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+
+
+/*
+	Typography presets
+	------------------
+*/
+
+.gigantic {
+	font-size: 105px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge, h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -2px;
+}
+
+.large, h2 {
+	font-size: 42px;
+	line-height: 48px;
+	letter-spacing: -1px;
+}
+
+.big, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.normal, body {
+	font: 16px/1.5 Helvetica, Arial, sans-serif;
+}
+
+.small, small {
+	font-size: 13px;
+	line-height: 18px;
+} 
+
+
+::selection 	 {background: rgb(255,255,0);}
+::-moz-selection {background: rgb(255,255,0);}
+
+/*
+	Specific CSS
+	------------------
+*/
+
+body{ 
+background:url("background.jpg") no-repeat scroll 0 0 transparent;
+font-family: "museo-slab-1","museo-slab-2","sans-serif";
+}
+
+#squared{
+-webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+        border-radius: 10px;
+background:#CC99CC;
+width:462px;
+padding:10px;
+margin:50px 0 0 50px;
+
+}
+
+li{
+list-style: square;
+margin-left:30px;
+}
+
+a{
+text-decoration:none;
+color:#FFFDD8;
+font-size:20px;
+}
+
+h1{
+font-size:100px;
+font-weight:1000;
+}
+
+h2{
+font-size:30px;
+font-weight:300;
+}
