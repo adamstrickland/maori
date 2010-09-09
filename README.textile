@@ -3,8 +3,6 @@
 
 <p>You make awesome code, but need a portfolio website. The only problem is your a developer, not a designer. That's where Maori comes in. By forking this project and changing editing a few lines of code, you have a sexy site and can go back to your code zone.</p>
 
-<hr>
-
 <h1>Installation</h1>
 <p>Fork this project and upload to wherever you want to use it. Everything is done in HTML and CSS with nothing else needed.</p>
 
@@ -16,8 +14,6 @@
 
 <h2>background.jpg</h2>
 <p>Find a picture that makes you look awesome, then export it so that the width is 1280px. Overwrite the default picture and your good to go.</p>
-
-<hr>
 
 <h1>More coming soon...</h1>
 <p>Let me know what you want to see by emailing me at <a href="mailto:alex@kiwigrove.com">alex@kiwigrove.com</a>. Thanks for trying out Maori!</p>
