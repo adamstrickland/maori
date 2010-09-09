@@ -84,12 +84,12 @@ background:url("background.jpg") no-repeat scroll 0 0 transparent;
 }
 
 #content{
--webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-        border-radius: 10px;
+-webkit-border-radius: 0 10px 10px 0;
+   -moz-border-radius: 0 10px 10px 0;
+        border-radius: 0 10px 10px 0;
 width:462px;
 padding:15px;
-margin:50px 0 0 50px;
+margin-top:50px;
 
 }
 
@@ -112,6 +112,9 @@ font-size:30px;
 }
 
 footer{
+-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+		border-radius: 10px 10px 0 0;
 padding:5px;
 background:white;
 overflow:hidden;
