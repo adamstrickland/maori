@@ -1,43 +1,61 @@
 <!doctype html>
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8"/>
-		<title>Maori</title>
+		<title>Adam Strickland</title>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz"/>
 		<link rel="stylesheet" media="all" href="maori.css"/>
 		<link rel="stylesheet" media="all" href="custom.css"/>
 		<meta name = "viewport" content = "initial-scale = .5">
 		
-		<script type="text/javascript" src="http://use.typekit.com/rds7nju.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <!-- <script type="text/javascript" src="http://use.typekit.com/rds7nju.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.4/jquery.tools.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+               $('#connections a[title]').tooltip({ position:"bottom center" });
+               
+               $('header small a').click(function(){
+                   $('#contact_info').toggle();
+               })
+            });
+        </script>
 	</head>
-
 	<body>
-	
+	    <header>
+	        <small>
+	            <a href="#">Contact Info</a>
+	            <div id="contact_info" style="display:none">
+	                <h3>Adam Strickland</h3>
+	                <a href="mailto:adam.strickland@gmail.com">adam.strickland@gmail.com</a>
+	                <h4>214.906.3350</h4>
+	            </div>
+	        </small>
+	    </header>
+	    
 		<section id="content">
 			<header>
-				<h1>Maori</h1>
-				<h2>Open-source personal site.</h2>
+				<h1>Adam Strickland</h1>
+				<h2>Technologist, entrepreneur, warrior-poet</h2>
+				<div id="connections">
+        			<span>
+        			    <a href="http://github.com/adamstrickland" title="github"><img class="connection" src="./icon-github.png"/></a>
+        			    <a href="http://facebook.com/adamis42" title="facebook"><img class="connection" src="./icon-facebook.gif"/></a>
+        			    <a href="http://twitter.com/adamstrickland" title="twitter"><img class="connection" src="./icon-twitter.gif"/></a>
+        			    <a href="http://www.linkedin.com/in/warriorpoet" title="linked-in"><img class="connection" src="./icon-linkedin.png"/></a>
+        			</span>
+    			</div>
 			</header>
 			
-			<h3>Fork Me</h3>
-			<ul>
-				<li><a href="http://github.com/kiwigrove/maori" title="Alex Baldwin - Github">Github</a></li>
-			</ul>
 			
-			<h3>Examples</h3>
-			<ul>
-				<li><a href="http://al.exbaldwin.com" title="Alex Baldwin">Alex Baldwin</a></li>
-			</ul>	
 		</section>
 		
 		<footer>
 			<small>Design from <br><a href="http://kiwigrove.com/" title="Kiwi Grove">Kiwi Grove</a></small>
 		</footer>
-		
 	</body>
-	
 </html>

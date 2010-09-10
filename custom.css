@@ -1,5 +1,29 @@
 body{
-font-family: "ff-providence-sans-web-pro-1","ff-providence-sans-web-pro-2",sans-serif;
+/*  font-family: "ff-providence-sans-web-pro-1","ff-providence-sans-web-pro-2",sans-serif;*/
+  font-family: 'Yanone Kaffeesatz', Helvetica, arial, serif;
+  background: black url("http://farm5.static.flickr.com/4093/4953449631_57e5c365a7_b.jpg") fixed no-repeat center center;
+}
+
+body>header{
+  -webkit-border-radius: 0 0 10px 10px;
+  	-moz-border-radius: 0 0 10px 10px;
+  		border-radius: 0 0 10px 10px;
+  padding:5px;
+  overflow:hidden;
+  position:fixed;
+  z-index:3000;
+  top:0;
+  right:0;
+  text-align:right;
+}
+
+body>header, body>header a{
+  color:white;
+}
+
+body>header div a:hover{
+  color:blue;
+  text-decoration:underline;
 }
 
 #content{
@@ -9,4 +33,25 @@ width:462px;
 
 a{
 color:#452F27;
+}
+
+#connections{
+  list-style-type:none;
+}
+
+#connections li{
+  
+}
+
+#connections li a{
+  display:block;
+}
+
+img.connection{
+  height:24px;
+  width:24px;
+  border:0;
+}
+
+#connections li a img{
 }
