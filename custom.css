@@ -1,28 +1,31 @@
 body{
 /*  font-family: "ff-providence-sans-web-pro-1","ff-providence-sans-web-pro-2",sans-serif;*/
   font-family: 'Yanone Kaffeesatz', Helvetica, arial, serif;
-  background: black url("http://farm5.static.flickr.com/4093/4953449631_57e5c365a7_b.jpg") fixed no-repeat center center;
+/*  background: black url("http://farm5.static.flickr.com/4093/4953449631_57e5c365a7_b.jpg") fixed no-repeat center center;*/
+  background: black url("./naxos_background.png") fixed no-repeat center center;
 }
 
 body>header{
   -webkit-border-radius: 0 0 10px 10px;
-  	-moz-border-radius: 0 0 10px 10px;
-  		border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
   padding:5px;
   overflow:hidden;
   position:fixed;
   z-index:3000;
   top:0;
   right:0;
-  text-align:right;
+/*  text-align:right;*/
+	background-color:white;
+	width:200px;
 }
 
 body>header, body>header a{
-  color:white;
+  color:#452F27;
 }
 
 body>header div a:hover{
-  color:blue;
+/*  color:blue;*/
   text-decoration:underline;
 }
 
